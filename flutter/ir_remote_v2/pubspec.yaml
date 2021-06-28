@@ -1,0 +1,29 @@
+name: ir_remote
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bluetooth_serial: ^0.2.2
+  flutter_layout_grid: ^1.0.1
+  backdrop: ^0.6.1
+  shared_preferences: ^2.0.6
+  flutter_slidable: ^0.6.0
+  flutter_boost:
+    git:
+      url: https://github.com/aasirmutwalli22/flutter_boost.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
